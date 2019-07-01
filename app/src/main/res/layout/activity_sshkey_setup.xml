@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SSHKeySetupActivity"
+    android:background="#000000">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sshKey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SSH Key Setup"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold|italic"
+                android:typeface="sans" />
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:id="@+id/sshcontent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="false"
+                android:textSize="22dp"
+                android:text="Description"/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/sshcontent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="The SSH stands for Secure Shell or Secure Socket Shell used for managing the networks, operating systems and configurations and also authenticates to the GitLab server without using username and password each time. You can set the SSH keys to provide a reliable connection between the computer and GitLab. Before generating ssh keygen, you need to have Git installed in your system."/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:id="@+id/sshcontent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="false"
+                android:textSize="22dp"
+                android:text="Creating SSH Key"/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/sshcontent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 1 − To create SSH key, open the command prompt and enter the command as shown below −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/sshcontent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="C:\−ssh-keygen"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/sshcontent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="It will prompt for 'Enter file in which to save the key (//.ssh/id_rsa):', just type file name and press enter. Next a prompt to enter password shows 'Enter passphrase (empty for no passphrase):'. Enter some password and press enter. You will see the generated SSH key as shown in the below image −"/>
+
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image12"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/sshcontent7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 2 − Now login to your GitLab account and click on the Settings option."/>
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image13"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/sshcontent8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 3 − To create SSH key, click on the SSH keys tab at left side of the menu."/>
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image14"/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/sshcontent9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 4 − Now go to C drive, you will see the file with .pub extension which was generated in the first step."/>
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image15"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/sshcontent10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 5 − Next open the key.pub file, copy the SSH key and paste it in the highlighted Key box as shown in the below image −"/>
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image16"/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/sshcontent11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 6 − Click on the Add Key button, to add SSH key to your GitLab. You will see the fingerprint (it is a short version of SSH key), title and created date as shown in the image below −"/>
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/image17"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+        </LinearLayout>

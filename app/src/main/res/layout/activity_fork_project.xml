@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForkProjectActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/forkProject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fork a Project"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold|italic"
+                android:typeface="sans" />
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:id="@+id/forkProjectcontent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="false"
+                android:textSize="22dp"
+                android:text="Description"/>
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/forkProjectcontent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Fork is a duplicate of your original repository in which you can make the changes without affecting the original project."/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:id="@+id/forkProjectcontent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="false"
+                android:textSize="22dp"
+                android:text="Forking a Project"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/forkProjectcontent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 1 − To fork a project, click on the Fork button as shown below −"/>
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image23"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/forkProjectcontent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 2 − After forking the project, you need to add the forked project to a fork group by clicking on it −"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image24"/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/forkProjectcontent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 3 − Next it will start processing of forking a project for sometime as shown below −"/>
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image25"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/forkProjectcontent7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 4 − It will display the success message after completion of forking the project process −"/>
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image26"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

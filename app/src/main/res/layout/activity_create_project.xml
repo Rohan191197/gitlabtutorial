@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProjectActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/createProject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Project"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold|italic"
+                android:typeface="sans" />
+
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="In this chapter, we will discuss about how to create a new project in the GitLab. "/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 1 − To create new project, login to your GitLab account and click on the New project button in the dashboard −"/>
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image18"/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 2 − It will open the New project screen as shown below in the image −"/>
+
+
+            c
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Enter the project name, description for the project, visibility level (accessing the project's visibility in publicly or internally) and click on the Create project button."/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 3 − Next it will create a new project (here given the project name as first-gitlab-prjt) with successful message as shown below −"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image20"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:id="@+id/createProjectcontent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="false"
+                android:textSize="22dp"
+                android:text="Push the Repository to Project"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 4 − You can clone the repository to your local system by using the git-clone command −"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image21"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="The clone command makes a copy of repository into a new directory called first-gitlab-prjt."/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 5 − Now go to your newly created directory and type the below command −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/createProjectcontent10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="C:\−ssh-keygenC:\>cd first-gitlab-prjt\n\nC:\first-gitlab-prjt>touch README.md"/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="The clone command makes a copy of repository into a new directory called first-gitlab-prjt."/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 6 − Add the README.md file to your created directory by using the below command −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/createProjectcontent13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="C:\first-gitlab-prjt>git add README.md"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 7 − Now store the changes to the repository along with the log message as shown below −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/createProjectcontent15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="@string/string5"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="The flag -m is used for adding a message on the commit."/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 8 − Push the commits to remote repository which are made on the local branch "/>
+
+
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/createProjectcontent18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="C:\first-gitlab-prjt>git push -u origin master"/>
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/createProjectcontent19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="The below image depicts the usage of above commands in pushing the commits to remote repository −"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/image22"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

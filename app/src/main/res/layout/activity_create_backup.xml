@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#000000"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateBackupActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/backup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create Backup"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold|italic"
+                android:typeface="sans" />
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/backupcontent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="GitLab allows to take backup copy of your repository by using simple command. In this chapter, we will discuss about how to take backup copy in the GitLab −"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/backupcontent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 1 − First, login to your GitLab server using SSH (Secure Shell)."/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/backupcontent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 2 − Create the backup of GitLab by using the below command −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/backupcontent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="sudo gitlab-rake gitlab:backup:create"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image96"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/backupcontent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 3 − You can exclude some directories from the backup by adding environment variable SKIP as shown below −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/backupcontent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="sudo gitlab-rake gitlab:backup:create SKIP = db,uploads"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image97"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/backupcontent7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 4 − The backup tar file will get created in the default /var/opt/gitlab/backups directory. Navigate to this path and type ls -l to see the created backup file −"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image98"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+        </LinearLayout>

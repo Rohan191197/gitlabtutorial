@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReferencingIssueActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/referencingIssue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Referencing Issue"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold|italic"
+                android:typeface="sans" />
+
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="GitLab can be able to refer the specific issue from the commit message to solve a specific problem. In this chapter, we will discuss about how to reference a issue in the GitLab −"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 1 − To reference a issue, you need to have an issue number of a created issue. To create an issue, refer the creating issue chapter."/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 2 − To see the created issue, click on the List option under Issues tab −"/>
+
+
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image79"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 3 − Before making the changes in your local repository, check whether it is up to date or not by using the below command −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/referencingIssuecontent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="@string/string1"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image80"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="The git pull command downloads the latest changes from the remote server and integrates directly into current working files."/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 4 − Now, create a new branch with the name issue-fix by using the git checkout command −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/referencingIssuecontent8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="git checkout -b issue-fix"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image81"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 5 − Now, add some content to the README.md file to fix the bug −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/referencingIssuecontent10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="@string/string2"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 6 − Enter the commit message for the above change with the below command −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/referencingIssuecontent12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="git commit -a"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="This command opens the below screen and press Insert key on the keyboard to add a commit message for the issue-fix branch."/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image82"/>
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Now press the Esc key, then colon(:) and type wq to save and exit from the screen."/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 7 − Now push the branch to remote repository by using the below command −"/>
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:id="@+id/referencingIssuecontent16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:background="#9C9C9C"
+                android:textAllCaps="false"
+                android:textSize="16dp"
+                android:paddingLeft="2dp"
+                android:text="git push origin issue-fix"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/image83"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 8 − Login to your GitLab account and create a new merge request. You can refer the merge request chapter for the creation of merge request."/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/referencingIssuecontent18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:textSize="18dp"
+                android:text="Step 9 − Once you create the merge request, you will be redirected to the merge request page. When you click on the Close merge request button (refer the screenshot in the step (6) of merge request chapter), you will see the Closed option after closing merge request"/>
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/image84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/image84"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+        </LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#000000"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CICDActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cicd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CI/CD"
+                android:textColor="#FFFFFF"
+                android:textSize="28dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold|italic"
+                android:typeface="sans" />
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:id="@+id/cicdcontent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal|bold"
+                android:textAllCaps="false"
+                android:textSize="22dp"
+                android:text="Description"/>
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:id="@+id/cicdcontent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="normal"
+                android:textAllCaps="false"
+                android:layout_marginBottom="30dp"
+                android:textSize="18dp"
+                android:text="GitLab CI (Continuous Integration) service is a part of GitLab that build and test the software whenever developer pushes code to application. GitLab CD (Continuous Deployment) is a software service that places the changes of every code in the production which results in every day deployment of production.\nThe following points describe usage of GitLab CI/CD −\n\nIt is easy to learn, use and scalable.\nIt is faster system which can be used for code deployment and development.\nYou can execute the jobs faster by setting up your own runner (it is an application that processes the builds) with all dependencies which are pre-installed.\nGitLab CI solutions are economical and secure which are very flexible in costs as much as machine used to run it.\nIt allows the project team members to integrate their work daily, so that the integration errors can be identified easily by an automated build."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

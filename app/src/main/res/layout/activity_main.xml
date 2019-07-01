@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/homescreen2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="50dp"
+        android:typeface="serif"
+        android:layout_gravity="center"
+        android:background="@drawable/round_corners"
+        android:text="Basics"
+        android:id="@+id/btn0"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:onClick="basic"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="50dp"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:background="@drawable/round_corners1"
+            android:text="User and Groups"
+            android:id="@+id/btn1"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:onClick="userandgroup"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="50dp"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:background="@drawable/round_corners2"
+            android:text="Issue Tracker"
+            android:id="@+id/btn2"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:onClick="issuetracker"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="50dp"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:background="@drawable/round_corners3"
+            android:text="Instance Management"
+            android:id="@+id/btn3"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:onClick="instancemanagement"/>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="50dp"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:background="@drawable/round_corners4"
+            android:text="Continous Integration"
+            android:id="@+id/btn4"
+            android:layout_marginBottom="50dp"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:onClick="continousintegration"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

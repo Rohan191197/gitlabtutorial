@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.novlence">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="GitLAB-Tutorials"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BasicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UserGroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IssueTrackerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InstanceManagementActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ContinousIntegrationActivity" />
+        <activity
+            android:name=".IntroductionActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".InstallationActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".CommandsActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".SSHKeySetupActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".CreateProjectActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".ForkProjectActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".CreateBranchActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".AddFileActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".RebaseOperationActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".SquashingCommitsActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".AddingUserActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".CreateGroupsActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".RemoveUsersActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".UserPermissionsActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".CreateIssueActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".MergeRequestActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".ReferencingIssueActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".MilestonesActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".WikiPagesActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".CreateBackupActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".RestoreBackupActivity"
+            android:screenOrientation="userLandscape" />
+        <activity
+            android:name=".ImportRepositoryActivity"
+            android:screenOrientation="userLandscape" />
+        <activity android:name=".CIIntroductionActivity"
+            android:screenOrientation="userLandscape"/>
+        <activity android:name=".CICDActivity"
+            android:screenOrientation="userLandscape"/>
+        <activity android:name=".CICDVariablesActivity"
+            android:screenOrientation="userLandscape"/>
+        <activity android:name=".CIPermissionActivity"
+            android:screenOrientation="userLandscape"/>
+        <activity android:name=".GitlabRunnersActivity"
+            android:screenOrientation="userLandscape"/>
+        <activity android:name=".AdvancedUsageActivity"
+            android:screenOrientation="userLandscape"/>
+        <activity android:name=".CycleAnalyticsActivity"
+            android:screenOrientation="userLandscape"/>
+        <activity android:name=".ContainingRegistryActivity"
+            android:screenOrientation="userLandscape"></activity>
+    </application>
+
+</manifest>

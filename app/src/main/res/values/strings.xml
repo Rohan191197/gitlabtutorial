@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GitLAB Tutorials</string>
+    <string name="string1">"git checkout master &amp;&amp;git pull"</string>
+    <string name="string2">echo \"fix this bug\" >> README.md</string>
+    <string name="string3">$ git config --global user.name \"USERNAME\"</string>
+    <string name="string4">$ git config --global user.email \"email_address@example.com\"</string>
+    <string name="string5">C:\first-gitlab-prjt>git commit -m \"add README\"</string>
+    <string name="string6">"$ docker container stop registry &amp;&amp; docker container rm -v registry"</string>
+</resources>

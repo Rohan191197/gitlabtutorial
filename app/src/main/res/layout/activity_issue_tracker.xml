@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/c"
+    tools:context=".IssueTrackerActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/b15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:textSize="24dp"
+                android:text="Create Issue"
+                android:textAlignment="center"
+                android:typeface="sans"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/round_corners5"
+                android:onClick="createissue"/>
+
+            <Button
+                android:id="@+id/b16"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:textSize="24dp"
+                android:text="Merge Request"
+                android:textAlignment="center"
+                android:typeface="sans"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/round_corners5"
+                android:onClick="mergerequest"/>
+
+            <Button
+                android:id="@+id/b17"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:textSize="24dp"
+                android:text="Referencing Issue"
+                android:textAlignment="center"
+                android:typeface="sans"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/round_corners5"
+                android:onClick="refrencingissue"/>
+
+            <Button
+                android:id="@+id/b18"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:textSize="24dp"
+                android:text="Milestones"
+                android:textAlignment="center"
+                android:typeface="sans"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/round_corners5"
+                android:onClick="milestones"/>
+
+            <Button
+                android:id="@+id/b19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:textSize="24dp"
+                android:text="Wiki Pages"
+                android:textAlignment="center"
+                android:typeface="sans"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/round_corners5"
+                android:onClick="wikipages"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

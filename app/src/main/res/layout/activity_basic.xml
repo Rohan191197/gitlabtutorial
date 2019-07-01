@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicActivity"
+    android:background="@drawable/a">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24dp"
+        android:text="Introduction"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="Introduction"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24dp"
+        android:text="Installation"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="Installation"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24dp"
+        android:text="Commands"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="Commands"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24dp"
+        android:text="SSH key Setup"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="SSH_Key_Setup"/>
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24dp"
+        android:text="Create Project"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="CreateProject"/>
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24dp"
+        android:text="Fork a Project"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="ForkProject"/>
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24dp"
+        android:text="Create a Branch"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="CreateBranch"/>
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24dp"
+        android:text="Add a File"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="AddFile"/>
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textSize="24dp"
+        android:text="Rebase Operation"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="RebaseOperation"/>
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="24dp"
+        android:text="Squashing Commits"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/round_corners5"
+        android:onClick="SquashingCommits"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
